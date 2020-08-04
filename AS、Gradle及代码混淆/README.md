@@ -151,6 +151,17 @@
 
   * 其他一些说明总结：[AndroidStudio使用小技巧和快捷键][AndroidStudio使用小技巧和快捷键]
 
+  * 调试工具
+
+	* APK解析
+	直接把apk用AndroidStudio打开
+    ![apk解析][apk解析]
+	* 布局解析
+	tools->layout inspector
+	![layout inspector][layout_inspector]
+	* 内存/CPU等解析Profiler
+	![Profiler][profiler]
+
 <br>
 
 ### <span id="1.3">插件集合</span>
@@ -629,23 +640,26 @@
       [腾讯乐固][腾讯乐固]
 
 
-[AndroidStudio兼容导入Eclipse工程]:/docs/AndroidStudio兼容导入Eclipse工程.pdf
-[IDE配置]:/docs/settings_v1.2.9.jar
-[AndroidStudio风格]:/images/AndroidStudio风格.png
-[AndroidStudio缩进规范]:/images/AndroidStudio缩进规范.png
-[AndroidStudio成员模板]:/images/AndroidStudio成员模板.png
-[AndroidStudio代码模板]:/images/AndroidStudio代码模板.png
-[AndroidStudio文件模板]:/images/AndroidStudio文件模板.png
-[jdk.table.xml]:/docs/jdk.table.xml
+[AndroidStudio兼容导入Eclipse工程]:./docs/AndroidStudio兼容导入Eclipse工程.pdf
+[IDE配置]:./docs/settings_v1.2.9.jar
+[AndroidStudio风格]:./images/AndroidStudio风格.png
+[AndroidStudio缩进规范]:./images/AndroidStudio缩进规范.png
+[AndroidStudio成员模板]:./images/AndroidStudio成员模板.png
+[AndroidStudio代码模板]:./images/AndroidStudio代码模板.png
+[AndroidStudio文件模板]:./images/AndroidStudio文件模板.png
+[jdk.table.xml]:./docs/jdk.table.xml
 [AndroidStudio使用小技巧和快捷键]:http://note.youdao.com/noteshare?id=e7bdef1ff8f3763fcab662fbf0d3663e&sub=12548210216F41ACB91622620084B446
-[插件集合]:/docs/插件集合.md
-[proguard-rules.pro]:/docs/proguard-rules.pro
-[依赖配置]:/docs/依赖配置.md
-[多渠道资源]:/images/多渠道资源.png
-[gradle脚本1]:/images/gradle脚本1.png
-[gradle脚本2]:/images/gradle脚本2.png
+[apk解析]:./images/apk解析.png
+[layout_inspector]:./images/layout_inspector.png
+[profiler]:./images/profiler.png
+[插件集合]:./docs/插件集合.md
+[proguard-rules.pro]:./docs/proguard-rules.pro
+[依赖配置]:./docs/依赖配置.md
+[多渠道资源]:./images/多渠道资源.png
+[gradle脚本1]:./images/gradle脚本1.png
+[gradle脚本2]:./images/gradle脚本2.png
 [编译异常集合]:http://note.youdao.com/noteshare?id=c4b4f0dbf46277a30195207759513442&sub=8B57BCA2F7D64335886FB58EB7650CA0
-[未混淆]:http://omu2z4vmz.bkt.clouddn.com/%E6%9C%AA%E6%B7%B7%E6%B7%86.png
-[混淆]:http://omu2z4vmz.bkt.clouddn.com/%E6%B7%B7%E6%B7%86.png
+[未混淆]:https://github.com/VeiZhang/cdn.io/blob/master/images/%E6%9C%AA%E6%B7%B7%E6%B7%86.png?raw=true
+[混淆]:https://github.com/VeiZhang/cdn.io/blob/master/images/%E6%B7%B7%E6%B7%86.png?raw=true
 [腾讯乐固]:https://cloud.tencent.com/product/ms
 [jadx]:https://github.com/skylot/jadx
